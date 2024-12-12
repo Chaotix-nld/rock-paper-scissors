@@ -1,0 +1,10 @@
+creating a rock paper scissors game
+    allow player input for 1 of 3 choices
+    allow random computer input
+    determine winner
+        rules for winning
+            rock>scissors
+            scissors>paper
+            paper>rock
+    keep count of number of wins
+    allow for multiple games in a row
