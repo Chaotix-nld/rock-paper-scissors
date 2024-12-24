@@ -3,12 +3,12 @@ let computerChoice = getComputerChoice(3);
 let humanScore = 0;
 let computerScore = 0;
 
-//gettig user input
+//get user input
 function getHumanChoice(){
     return parseInt(prompt("please pick 1 for rock, 2 for paper, 3 for scissors", ''));
 }
 
-//generate random number for computer choice
+//get computer choice
 function getComputerChoice(max){
     return Math.floor(Math.random() * max + 1);
 }  
@@ -80,7 +80,6 @@ function playRound(){
     displayHumanInput();
     displayComputerInput();
     calculateScore();
-    
 }
 
 //play 5 rounds
@@ -93,7 +92,7 @@ function playGame(){
         console.log("You have won the Game!!");
     }
     else if (humanScore < computerScore){
-        console.log("To bad, the computer won...");
+        console.log("Too bad, the computer won...");
     }
     else {
         console.log("its a Tie!!!");
